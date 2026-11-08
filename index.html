@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f4">
+  <meta name="description" content="A little love website made especially for Patience.">
+  <title>For Patience, With Love ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient-hearts" id="ambient-hearts" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="For Patience home"><span>♥</span> for Patience</a>
+    <nav aria-label="Main navigation">
+      <a href="#love-note">Love note</a>
+      <a href="#reasons">Why you</a>
+      <a href="#surprise">Surprise</a>
+    </nav>
+    <a class="top-heart" href="#surprise" aria-label="Go to surprise">♡</a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="sparkle">✦</span> made with all my love</p>
+        <h1>Hey, <span>Patience</span>.<br>You're my favourite<br><em>kind of magic.</em></h1>
+        <p class="hero-text">A little corner of the internet, made just for you — because someone as special as you deserves something special.</p>
+        <a class="primary-btn" href="#love-note">Open your little love note <span>♥</span></a>
+        <p class="tiny-note">psst... this page is full of hugs and kisses</p>
+      </div>
+
+      <div class="hero-art" aria-label="Two cute illustrated dolls surrounded by hearts">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="float-heart fh-one">♥</span><span class="float-heart fh-two">♥</span>
+        <span class="float-heart fh-three">♡</span><span class="float-heart fh-four">♥</span>
+        <div class="doll doll-left" role="img" aria-label="Cute doll with dark hair and a pink dress">
+          <div class="doll-hair"></div><div class="doll-head"><i class="eye eye-left"></i><i class="eye eye-right"></i><i class="blush blush-left"></i><i class="blush blush-right"></i><b class="smile"></b></div>
+          <div class="doll-neck"></div><div class="doll-body"><span class="dress-heart">♥</span></div>
+          <div class="doll-arm arm-left"></div><div class="doll-arm arm-right"></div>
+          <div class="doll-leg leg-left"></div><div class="doll-leg leg-right"></div>
+          <div class="shoe shoe-left"></div><div class="shoe shoe-right"></div>
+        </div>
+        <div class="doll doll-right" role="img" aria-label="Cute doll with curly hair and a red outfit">
+          <div class="doll-hair"></div><div class="doll-head"><i class="eye eye-left"></i><i class="eye eye-right"></i><i class="blush blush-left"></i><i class="blush blush-right"></i><b class="smile"></b></div>
+          <div class="doll-neck"></div><div class="doll-body"><span class="dress-heart">♥</span></div>
+          <div class="doll-arm arm-left"></div><div class="doll-arm arm-right"></div>
+          <div class="doll-leg leg-left"></div><div class="doll-leg leg-right"></div>
+          <div class="shoe shoe-left"></div><div class="shoe shoe-right"></div>
+        </div>
+        <div class="art-caption">two hearts, one sweet story <span>♡</span></div>
+      </div>
+    </section>
+
+    <section class="love-note section-wrap" id="love-note">
+      <div class="section-heading">
+        <p class="eyebrow">a message from my heart</p>
+        <h2>A little note <em>for you</em></h2>
+      </div>
+      <article class="letter">
+        <div class="letter-top"><span>To my beautiful Patience</span><span class="letter-seal">♥</span></div>
+        <p class="letter-greeting">My love,</p>
+        <p class="typed-message" id="typed-message">I love you because you make my world a better place.</p>
+        <p class="letter-extra">Your smile makes ordinary days feel brighter, and having you in my life is a gift I never want to take for granted. I hope you always remember how loved, appreciated, and special you are.</p>
+        <p class="signature">Forever yours <span>♥</span></p>
+      </article>
+    </section>
+
+    <section class="reasons section-wrap" id="reasons">
+      <div class="section-heading">
+        <p class="eyebrow">if you ever need a reminder</p>
+        <h2>Reasons I love <em>you</em></h2>
+        <p class="section-subtitle">Tap a heart to reveal a little reminder.</p>
+      </div>
+      <div class="reason-grid">
+        <button class="reason-card" type="button" data-message="Your smile can turn even my hardest day into a better one."><span class="reason-icon">♡</span><strong>Your smile</strong><small>tap for a reason</small></button>
+        <button class="reason-card" type="button" data-message="I love the way you make me feel seen, heard, and understood."><span class="reason-icon">♡</span><strong>Your beautiful heart</strong><small>tap for a reason</small></button>
+        <button class="reason-card" type="button" data-message="Being myself around you is one of my favourite feelings."><span class="reason-icon">♡</span><strong>Being with you</strong><small>tap for a reason</small></button>
+        <button class="reason-card" type="button" data-message="You inspire me to grow, dream, and become a better person."><span class="reason-icon">♡</span><strong>Your strength</strong><small>tap for a reason</small></button>
+      </div>
+      <p class="reason-reveal" id="reason-reveal" aria-live="polite">Choose a heart, sweetheart. 💗</p>
+    </section>
+
+    <section class="memory section-wrap">
+      <div class="memory-card">
+        <div class="memory-copy">
+          <p class="eyebrow">a little keepsake</p>
+          <h2>One picture.<br><em>A thousand feelings.</em></h2>
+          <p>I kept a special picture from the files you shared. Add more of your favourite memories here whenever you like.</p>
+          <a href="#surprise" class="text-link">There's one more surprise <span>→</span></a>
+        </div>
+        <div class="memory-photo">
+          <img src="IMG-20261010-WA0024.jpg""A special photo included with the Patience website" loading="lazy">
+          <span class="photo-sticker">LOML♥</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="surprise section-wrap" id="surprise">
+      <div class="surprise-inner">
+        <span class="surprise-heart">♥</span>
+        <p class="eyebrow">one last thing...</p>
+        <h2>Ready for a<br><em>little surprise?</em></h2>
+        <p>Press the button and let the love rain down.</p>
+        <button class="primary-btn surprise-btn" id="surprise-btn" type="button">Send me all the love <span>♥</span></button>
+        <p class="surprise-message" id="surprise-message" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with <span>♥</span> for Patience</p>
+    <small>Every heart on this page is a little reminder that you are loved.</small>
+  </footer>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
